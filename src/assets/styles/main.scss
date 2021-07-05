@@ -1,0 +1,95 @@
+#app {
+  color: #2c3e50;
+  //font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Monserrat", "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+#nav {
+    padding: 30px;
+    a {
+      font-weight: bold;
+      color: #2c3e50;
+      &.router-link-exact-active {
+        color: #42b983;
+      }
+    }
+} */
+  
+.wrapper2 {
+    background: #f2709c;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZjI3MDljIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmOTQ3MiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(45deg, #f2709c 0%, #ff9472 100%);
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      right top,
+      color-stop(0%, #f2709c),
+      color-stop(100%, #ff9472)
+    );
+    background: -webkit-linear-gradient(45deg, #f2709c 0%, #ff9472 100%);
+    background: -o-linear-gradient(45deg, #f2709c 0%, #ff9472 100%);
+    background: -ms-linear-gradient(45deg, #f2709c 0%, #ff9472 100%);
+    background: linear-gradient(45deg, #f2709c 0%, #ff9472 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2709c', endColorstr='#ff9472',GradientType=1 );
+    color: #fff;
+  
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 30px;
+}
+
+.wrapper {
+  $st1: white;
+  $st1w: 30px;
+  $st2: #ffb6c1;
+  $sdeg: -50deg;
+
+  background: white;
+  
+  background: url(assets/images/stripe-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  background: -moz-repeating-linear-gradient($sdeg,$st1,$st1 $st1w,$st2 15px,$st2 40px);
+  background: -o-repeating-linear-gradient($sdeg,$st1,$st1 $st1w,$st2 15px,$st2 40px);
+  background: -ms-repeating-linear-gradient($sdeg,$st1,$st1 $st1w,$st2 15px,$st2 40px);
+  background: repeating-linear-gradient($sdeg,$st1,$st1 $st1w,$st2 15px,$st2 40px);
+  color: white;
+
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  position: absolute;
+  overflow-y: auto;
+  overflow-x: auto;
+
+  padding: 30px;
+}
+
+.container-fluid {
+  padding: 0;
+  position: relative;
+  height: 100%;
+}
+
+@import 'google-fonts.scss';
+@import 'animation.scss';
+@import 'component.scss';

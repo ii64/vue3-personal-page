@@ -1,0 +1,149 @@
+$accentColor1: #ff9472;
+$accentColor2: #fbd854;
+$accentColor3: #4ebcf0;
+$accentColor4: #f5b88a;
+$accentColor5: #cc58c6;
+$transDuration: 0.6s;
+
+#home {
+  .main-content {
+    .left-wrapper {
+      background: #182137;
+    }
+
+    .hanging {
+      background: #232d48;
+
+      .logo-hanging {
+        background: #182137;
+        font-size: 30px;
+      }
+
+      .side-text-g:nth-of-type(1) {
+        color: white;
+      }
+    }
+
+    .cc {
+      &1 {
+        color: $accentColor1;
+        transition: $transDuration ease-in-out;
+      }
+
+      &2 {
+        color: $accentColor2;
+        transition: $transDuration ease-in-out;
+      }
+
+      &3 {
+        color: $accentColor3;
+        transition: $transDuration ease-in-out;
+      }
+
+      &4 {
+        color: $accentColor4;
+        transition: $transDuration ease-in-out;
+      }
+
+      &5 {
+        color: $accentColor5;
+        transition: $transDuration ease-in-out;
+      }
+    }
+
+    .inner-content {}
+
+    .lg-profile-picture {
+      background-color: #232d48;
+    }
+  }
+
+  .box-wrapper {
+    &:hover {
+      .inner-box-wrapper {
+        .menu-link {
+          background: #343d59;
+        }
+      }
+    }
+
+    .inner-box-wrapper {
+      .menu-link {
+        background: #232d48;
+        -webkit-box-shadow: 0 1px 20px 0 rgb(69 90 100 / 8%);
+        -moz-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+        box-shadow: 0 1px 20px 0 rgb(69 90 100 / 8%);
+      }
+    }
+
+    &:nth-of-type(1) {
+      padding-bottom: 15px;
+      padding-right: 15px;
+
+      .inner-box-wrapper {
+        .menu-link {
+          .valign-center {
+
+            .icon,
+            h5 .tx:nth-child(1n + 2) {
+              color: $accentColor2;
+            }
+          }
+        }
+      }
+    }
+
+    &:nth-of-type(2) {
+      padding-left: 15px;
+      padding-bottom: 15px;
+
+      .inner-box-wrapper {
+        .menu-link {
+          .valign-center {
+
+            .icon,
+            h5 .tx:nth-child(1n + 2) {
+              color: $accentColor3;
+            }
+          }
+        }
+      }
+    }
+
+    &:nth-of-type(3) {
+      padding-right: 15px;
+      padding-top: 15px;
+
+      .inner-box-wrapper {
+        .menu-link {
+          .valign-center {
+
+            .icon,
+            h5 .tx:nth-child(1n + 2) {
+              color: $accentColor4;
+            }
+          }
+        }
+      }
+    }
+
+    &:nth-of-type(4) {
+      padding-left: 15px;
+      padding-top: 15px;
+
+      .inner-box-wrapper {
+        .menu-link {
+          .valign-center {
+
+            .icon,
+            h5 .tx:nth-child(1n + 2) {
+              color: $accentColor5;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@import 'base.scss';
